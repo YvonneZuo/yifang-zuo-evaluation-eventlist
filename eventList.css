@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .add-event-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  #new-event-form {
+    margin-bottom: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #new-event-form input,
+  #new-event-form button {
+    margin: 10px 0;
+    padding: 8px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  button.save-btn {
+    background-color: green;
+    color: white;
+  }
+
+  button.edit-btn {
+    background-color: orange;
+    color: white;
+  }
+
+  button.delete-btn {
+    background-color: red;
+    color: white;
+  }
