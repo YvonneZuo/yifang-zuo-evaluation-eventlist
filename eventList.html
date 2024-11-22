@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event List</title>
-    <!-- <link rel="stylesheet" href="./eventList.css" /> -->
+    <link rel="stylesheet" href="./eventList.css" />
   </head>
   <body>
-    <button id="add-event-btn" class="add-event-btn">Add New Event</button>
 
-    <table id="event-list-table">
-      <thead>
-        <tr>
-          <th>Event</th>
-          <th>Start</th>
-          <th>End</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody id="event-list"></tbody>
-    </table>
+    <div class="button-container">
+      <button id="add-event-btn" class="add-event-btn">Add New Event</button>
+    </div>
+
+    <div class="table-container">
+      <table id="event-list-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="event-list"></tbody>
+      </table>
+    </div>
 
     <script src="./eventAPI.js"></script>
     <script src="./eventList.js"></script>
